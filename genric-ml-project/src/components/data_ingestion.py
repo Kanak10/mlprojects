@@ -1,0 +1,1 @@
+"""Here code is written for read data. Divide data into train and test"""
