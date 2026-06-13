@@ -4,6 +4,12 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
+authors = [{ name = "Kanak", email = "kanakgupta814@gmail.com" }]
 dependencies = [
     "numpy>=2.4.6",
 ]
+
+
+[build-system]
+requires = ["setuptools>=82.0.1"]
+build-backend = "setuptools.build_meta"
