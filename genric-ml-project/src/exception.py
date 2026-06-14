@@ -1,5 +1,4 @@
 import sys
-import logger
 
 def error_message_detail(error, error_detail:sys):
     _, _, exc_tb = error_detail.exc_info() # exc_tb store all the information about error like filename. line number and many more
